@@ -6,7 +6,7 @@ export default function WelcomeSection() {
   return (
     <section className="relative py-16 sm:py-20 lg:py-24 overflow-hidden">
       {/* Superposition semi-transparente pour améliorer la lisibilité */}
-      <div className="absolute inset-0 bg-blue-900/50 backdrop-blur-sm"></div>
+      <div className="absolute inset-0 bg-black/80 backdrop-blur-sm"></div>
       <div
         className="absolute inset-0"
         style={{
@@ -14,7 +14,7 @@ export default function WelcomeSection() {
           backgroundSize: 'cover', // Ajuste la taille pour éviter que l'image ne soit trop grande
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          opacity: 0.5, // Réduit l'opacité de l'image pour un effet subtil
+          opacity: 0.3, // Réduit l'opacité de l'image pour un effet subtil
         }}
       ></div>
       

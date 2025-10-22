@@ -78,7 +78,7 @@ export default function InscriptionSection() {
                       className="w-full h-full object-cover" // Pas de scale sur l'image directement
                     />
                     {/* Overlay assombri - à l'intérieur du conteneur qui scale */}
-                    <div className="absolute inset-0 bg-gradient-to-b from-blue-900/70 via-blue-900/60 to-blue-900/80 group-hover:from-blue-900/60 group-hover:via-blue-900/50 group-hover:to-blue-900/70 transition-all duration-300"></div>
+                    <div className="absolute inset-0 bg-blue-900/70    group-hover:bg-blue-900/50  transition-all duration-300"></div>
                   </div>
                 </div>
 

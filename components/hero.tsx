@@ -8,7 +8,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative h-[60vh] md:h-[100vh]  flex flex-col px-4 sm:px-6 lg:px-8"
+      className="relative h-[80vh] sm:h-[60vh] md:h-[100vh]  flex flex-col px-4 sm:px-6 lg:px-8"
       style={{
         backgroundImage: `url('/hero.png')`,
        
