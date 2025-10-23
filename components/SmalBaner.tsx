@@ -100,7 +100,7 @@ export default function SeparatorBanner() {
           
           {/* Description */}
           <p className="text-blue-100 text-base sm:text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto mb-8">
-            Une éducation d'excellence qui développe le potentiel de chaque enfant dans un environnement bilingue et bienveillant
+            Une éducation d'excellence qui développe le potentiel de chaque enfant dans un environnement  bienveillant
           </p>
           
           {/* Stats ou points clés */}
@@ -119,10 +119,10 @@ export default function SeparatorBanner() {
               <div className="flex items-center justify-center gap-2 mb-2">
                 <Star className="w-5 h-5 text-yellow-400 fill-yellow-400" />
                 <p className="font-bold text-3xl sm:text-4xl text-white">
-                  <AnimatedNumber end={100} suffix="%" />
+                  <AnimatedNumber end={50} suffix="" />
                 </p>
               </div>
-              <p className="text-blue-200 text-sm sm:text-base">Bilingue</p>
+              <p className="text-blue-200 text-sm sm:text-base">Enseignants</p>
             </div>
             
             <div className="text-center">
